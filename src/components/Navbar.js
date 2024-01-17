@@ -3,7 +3,7 @@ import '../App.css';
 
 const Navbar = () => {
 	return (
-		<nav className='header flex'>
+		<nav className='header flex bg-accent'>
 			<NavLink to='/' className='logo fs-600 text-dark'>
 				myCity
 			</NavLink>

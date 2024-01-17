@@ -3,6 +3,7 @@
 /* Header */
 
 .header {
+	padding-inline: 2rem;
 	align-items: center;
 	justify-content: space-between;
 }
@@ -23,4 +24,33 @@
 	text-decoration: none;
 	text-align: center;
 	display: block;
+}
+
+/* Sidebar */
+
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	top: 5rem;
+	left: 0;
+	background-color: red;
+	height: 100%;
+	width: 200px;
+}
+
+.sidebar ul li {
+	display: flex;
+	list-style: none;
+	align-items: flex-start;
+	margin-block-end: 10px;
+}
+
+.nav-link-sidebar {
+	color: var(--clr-dark);
+	text-decoration: none;
+}
+
+.nav-link-sidebar .fa-fw {
+	margin-right: 12px;
 }
