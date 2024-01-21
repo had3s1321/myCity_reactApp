@@ -5,7 +5,7 @@
 :root {
 	/* colors */
 	--clr-dark: hsl(230 35% 7%);
-	--clr-accent: hsl(105, 18%, 39%);
+	--clr-accent: hsl(0, 0%, 95%);
 	--clr-white: hsl(0 0% 100%);
 
 	/* font-sizes */

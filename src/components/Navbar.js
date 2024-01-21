@@ -1,12 +1,13 @@
 import { NavLink } from 'react-router-dom';
-import '../App.css';
+import CitySearch from '../features/search/CitySearch';
 
-const Navbar = () => {
+const Navbar = ({ onCitySelect }) => {
 	return (
-		<nav className='header bg-accent'>
+		<nav className='header bg-white'>
 			<NavLink to='/' className='logo fs-600 text-dark'>
 				myCity
 			</NavLink>
+			<CitySearch onCitySelect={onCitySelect} />
 			<ul className='navbar fs-400 '>
 				<li>
 					<NavLink to='/' className='nav-link text-dark'>

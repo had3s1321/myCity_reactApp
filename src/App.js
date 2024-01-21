@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
+import { useState } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import HomePage from './pages/HomePage';
@@ -8,9 +9,14 @@ import Module1Page from './pages/Module1Page';
 import Module2Page from './pages/Module2Page';
 
 function App() {
+	const [city, setCity] = useState('');
+
+	const handleCitySelect = (selectedCity) => {
+		setCity(selectedCity);
+	};
 	return (
 		<div className='App'>
-			<Navbar />
+			<Navbar onCitySelect={handleCitySelect} />
 			<div>
 				<Routes>
 					<Route path='/' element={<HomePage />} />

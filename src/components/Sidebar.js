@@ -10,7 +10,7 @@ import {
 
 const Sidebar = () => {
 	return (
-		<nav className='sidebar'>
+		<nav className='sidebar bg-white'>
 			<ul>
 				<li>
 					<NavLink
