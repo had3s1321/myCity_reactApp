@@ -10,7 +10,7 @@ import {
 
 const Sidebar = () => {
 	return (
-		<nav className='sidebar flex'>
+		<nav className='sidebar'>
 			<ul>
 				<li>
 					<NavLink

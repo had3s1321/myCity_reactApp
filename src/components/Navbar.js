@@ -3,11 +3,11 @@ import '../App.css';
 
 const Navbar = () => {
 	return (
-		<nav className='header flex bg-accent'>
+		<nav className='header bg-accent'>
 			<NavLink to='/' className='logo fs-600 text-dark'>
 				myCity
 			</NavLink>
-			<ul className='navbar flex fs-400 '>
+			<ul className='navbar fs-400 '>
 				<li>
 					<NavLink to='/' className='nav-link text-dark'>
 						Home
