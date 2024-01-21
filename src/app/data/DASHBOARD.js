@@ -8,24 +8,28 @@ export const DASHBOARD = [
 		id: 0,
 		name: 'city',
 		image: city,
-		description: ''
+		description: '',
+		whiteText: false
 	},
 	{
 		id: 1,
 		name: 'events',
 		image: events,
-		description: 'Events Near You'
+		description: 'Events Near You',
+		whiteText: true
 	},
 	{
 		id: 2,
 		name: 'jobs',
 		image: jobs,
-		description: 'Jobs Near You'
+		description: 'Jobs Near You',
+		whiteText: false
 	},
 	{
 		id: 3,
 		name: 'attractions',
 		image: attractions,
-		description: 'Attractions'
+		description: 'Attractions',
+		whiteText: true
 	}
 ];

@@ -6,11 +6,13 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	border-block-end: 1px solid var(--clr-accent);
 }
 
 .logo {
-	margin: 1rem;
+	margin: 15px 15px 14px 15px;
 	text-decoration: none;
+	font-weight: bold;
 }
 
 .navbar {
@@ -38,12 +40,14 @@
 	height: 100%;
 	width: 300px;
 	flex-shrink: 0;
+	border-inline-end: 1px solid var(--clr-accent);
 }
 
 .sidebar ul li {
 	list-style: none;
 	align-items: flex-start;
 	margin-block-end: 10px;
+	font-weight: bold;
 }
 
 .nav-link-sidebar {
@@ -58,7 +62,7 @@
 /* Dashboard */
 
 .homepage-container {
-	height: calc(100vh - 80px);
+	height: calc(100vh - 81px);
 	overflow: hidden;
 }
 
